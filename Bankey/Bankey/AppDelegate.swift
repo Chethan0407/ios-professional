@@ -17,8 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         window?.backgroundColor = .systemBackground
         //window?.rootViewController = LoginViewController()
-       // window?.rootViewController = OnboardingContainerViewController()
-        window?.rootViewController = onboardingViewController()
+       window?.rootViewController = OnboardingContainerViewController()
+       // window?.rootViewController = onboardingViewController(heroImageName: "delorea", titleText: "India’s No 1 Accounting and GST Billing Software!")
         
         return true
         
